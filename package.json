@@ -1,0 +1,27 @@
+{
+  "name": "elmo-js-works",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify app.js -o bundle.js",
+    "start": "gulp",
+    "prepublish": "bower install"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-rename": "~1.0.0",
+    "gulp-browserify": "~0.4.4",
+    "gulp": "~3.5.2",
+    "bower": "~1.2.8"
+  },
+  "dependencies": {
+    "gulp-util": "~2.2.14",
+    "express": "~3.4.8",
+    "tiny-lr": "0.0.5",
+    "gulp-livereload": "~1.1.1",
+    "node-static": "~0.7.3"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "elmo-js-works",
+  "version": "0.0.0",
+  "authors": [
+    "Timo Lehtonen <timo.lehtonen@solita.fi>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.0",
+    "angular": "~1.2.13",
+    "angular-route": "~1.2.13",
+    "bootstrap": "~3.1.1"
+  }
+}
