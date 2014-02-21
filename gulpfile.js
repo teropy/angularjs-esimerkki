@@ -62,13 +62,13 @@ gulp.task('server', function() {
       }).resume();
   }).listen(port);
   console.log("Server listening to http://localhost:" + port);
-});
 
-gulp.task('watch', function () {
   reloadServer.listen(35729, function() {
     console.log('Live reload listening on %d', 35729);
   });
+});
 
+gulp.task('watch', function () {
   gulp.watch('app/views/**/*.html', ['views']);
   gulp.watch('app/scripts/**/*.js', ['scripts']);
   gulp.watch('app/styles/*.css', ['styles']);
